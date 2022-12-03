@@ -20,11 +20,18 @@ HTML {
 
 .kotak2 {
     background-color: white;
-    width: 100%;
+    width: 1250px;
+    height: 400px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 #content {
     float: left;
     width: 70%;
     padding-left: 70px;
+}
+
+img {
+    align-self: flex-end;
 }

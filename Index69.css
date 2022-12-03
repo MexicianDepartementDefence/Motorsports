@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
 
 h3 {
     font-family: 'Quicksand', sans-serif;
@@ -52,15 +57,6 @@ HTML {
     scroll-behavior: smooth;
 }
 
-body {
-    justify-content: center;
-}
-
-
-header {
-    display: inline;
-}
-
 main {
     padding: 20px;
     overflow: auto;
@@ -74,16 +70,52 @@ footer {
 }
 
 h1 {
-    padding-bottom: 10px;
-}
-
-.kotak {
-    background-color: white;
-    width: 425px;
-    height: 75px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
 }
 
 
+p {
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+}
 
+aside {
+    text-align: justify;
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: red;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+}
 
